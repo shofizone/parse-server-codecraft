@@ -13,8 +13,7 @@ var api = new ParseServer({
 	//**** General Settings ****//
 
 	// databaseURI: databaseUri || 'mongodb://localhost:27017/dev',
-
-	databaseURI: databaseUri || 'mongodb+srv://shofiul:<password>@parse-db-lime-202ea.mongodb.net/test',
+	databaseURI: databaseUri || 'mongodb+srv://shofiul:40469959@parse-db-lime-202ea.mongodb.net/test',
 
 
 	cloud: process.env.CLOUD_CODE_MAIN || __dirname + '/cloud/main.js',
